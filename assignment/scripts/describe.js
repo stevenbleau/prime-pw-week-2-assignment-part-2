@@ -25,9 +25,9 @@ if (number >= 2) {
 */
 
 
-// 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// 1. we make a string called name and set it as "Dane"
+// then we check if name is strictly equal to "Mary" which is false
+// then we console.log "how do you do?"
 // 
 //
 
@@ -44,11 +44,11 @@ if (name === 'Mary') {
 
 */
 
-// 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 2. we create a variable called "secret" and a variable called "code" which is set to 123
+// then we check if "code" is strictly equal to 123
+// then we set "secret" as the string "super" and "code"'s value is multiplied by 2
+// then we check if "code" is greater than 250 
+//then we console.log "secret" which displays "super"
 
 //CODE
 /*
@@ -69,11 +69,15 @@ console.log(secret)
 
 */
 
-// 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 3. we create the variable isStudent and set it to equal true
+// we create the variable age and set it equal to 34
+// we create the variable zip and set it equal to 55407
+// we check if isStudent is strictly equal to true and if zip is greater than 8000
+//we check if isStudent is equal to false or if age is less than 30
+//we check if isStudent is strictly equal to true
+//we console.log "welcome to prime"
+
+
 
 //CODE
 /*
@@ -129,13 +133,16 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//FIX change colorOne to equal 'blue and colorTwo to equal 'red'
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+
 if (mix === true) {
   colorOne = 'purple';
+  //FIX - add (colorTwo = 'purple';)
 }
 */
 
@@ -147,6 +154,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - change || to &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +168,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - swap the messages of both console.log 
 if(minAge <= age) {
   console.log('no entry');
 } else {
